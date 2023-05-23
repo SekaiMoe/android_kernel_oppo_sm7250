@@ -1,0 +1,481 @@
+make[1]: 进入目录“/home/user/kernel/msm-4.19/out”
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_FG_IO_OPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SPECIALOPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PERFORMANCE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_STORAGE_TOOL to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFS_DRIVER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFS_SHOW_LATENCY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFSPLUS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PADL_STATISTICS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EMMC_SDCARD_OPTIMIZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EMMC_DRIVER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_HEALTHINFO to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TASK_CPUSTATS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_HANS_FREEZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SCHED_ASSIST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IOMONITOR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TP_BSPFWUPDATE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_LOWMEM_DBG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_QCOM_PMICWD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CHG_BASIC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_NWPOWER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_BDF to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CONNFCSOFT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AGINGTEST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SENSOR_SMEM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SSR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TP_BASIC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EDTASK_IMPROVE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_SLA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_ROUTERBOOST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IPV6_OPTIMIZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DATA_EVAL to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DHCP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PHOENIX to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DUMPDEVICE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SAUPWK to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MEMORY_ISOLATE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MULTI_KSWAPD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_MTUDETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_XTOWNER_INPUT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SELINUX_CONTROL_LOG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PXLW_IRIS5 to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MULTI_FREEAREA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_VIRTUAL_RESERVE_MEMORY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_GPU_MINIDUMP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PROCESS_RECLAIM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_ZRAM_OPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AUDIO_FTM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SPEAKER_MUTE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MM_FEEDBACK to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MI2S_SLAVE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_KTV to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_QCOM_WATCHDOG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MEMLEAK_DETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EXFAT_SUPPORT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SDCARDFS_SUPPORT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CAMERA_OIS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_COMPATIBILITY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_STABILITY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_DEBUG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_ARCH_INJECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_ARCH_EXTENDS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AUDIODETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make COLOROS_EDIT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWERINFO_STANDBY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWERINFO_RPMH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CAMERA_COMMON to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_ADSP_RECOVERY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SMARTPA_PM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IMPEDANCE_MATCH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MODEM_MINIDUMP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_THEIA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWER_CPUFREQ to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MIDAS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_OPLUSWFD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_DUALSTA_AP_BLACKLIST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_DCS_SWITCH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TPD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_APP_MONITOR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_RT_INFO to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH to be a macro here
+OplusKernelEnvConfig.mk:181: "ln the wakelock_profiler_h,mk is /home/user/kernel/msm-4.19,dir is /home/user/kernel/msm-4.19/../vendor/oplus/kernel/wakelock_profiler/oplus_wakelock_profiler.h, wakelock_dir is wakelock_profiler"
+ln: 无法创建符号链接 '/home/user/kernel/msm-4.19/../kernel/msm-4.19/drivers/soc/oplus/owakelock': 没有那个文件或目录
+ln: 无法创建符号链接 '/home/user/kernel/msm-4.19/../kernel/msm-4.19/include/soc/oplus/oplus_wakelock_profiler.h': 没有那个文件或目录
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_FG_IO_OPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SPECIALOPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PERFORMANCE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_STORAGE_TOOL to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFS_DRIVER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFS_SHOW_LATENCY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFSPLUS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PADL_STATISTICS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EMMC_SDCARD_OPTIMIZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EMMC_DRIVER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_HEALTHINFO to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TASK_CPUSTATS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_HANS_FREEZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SCHED_ASSIST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IOMONITOR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TP_BSPFWUPDATE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_LOWMEM_DBG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_QCOM_PMICWD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CHG_BASIC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_NWPOWER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_BDF to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CONNFCSOFT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AGINGTEST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SENSOR_SMEM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SSR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TP_BASIC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EDTASK_IMPROVE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_SLA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_ROUTERBOOST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IPV6_OPTIMIZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DATA_EVAL to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DHCP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PHOENIX to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DUMPDEVICE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SAUPWK to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MEMORY_ISOLATE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MULTI_KSWAPD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_MTUDETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_XTOWNER_INPUT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SELINUX_CONTROL_LOG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PXLW_IRIS5 to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MULTI_FREEAREA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_VIRTUAL_RESERVE_MEMORY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_GPU_MINIDUMP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PROCESS_RECLAIM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_ZRAM_OPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AUDIO_FTM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SPEAKER_MUTE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MM_FEEDBACK to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MI2S_SLAVE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_KTV to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_QCOM_WATCHDOG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MEMLEAK_DETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EXFAT_SUPPORT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SDCARDFS_SUPPORT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CAMERA_OIS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_COMPATIBILITY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_STABILITY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_DEBUG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_ARCH_INJECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_ARCH_EXTENDS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AUDIODETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make COLOROS_EDIT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWERINFO_STANDBY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWERINFO_RPMH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CAMERA_COMMON to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_ADSP_RECOVERY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SMARTPA_PM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IMPEDANCE_MATCH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MODEM_MINIDUMP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_THEIA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWER_CPUFREQ to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MIDAS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_OPLUSWFD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_DUALSTA_AP_BLACKLIST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_DCS_SWITCH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TPD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_APP_MONITOR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_RT_INFO to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH to be a macro here
+OplusKernelEnvConfig.mk:181: "ln the wakelock_profiler_h,mk is /home/user/kernel/msm-4.19,dir is /home/user/kernel/msm-4.19/../vendor/oplus/kernel/wakelock_profiler/oplus_wakelock_profiler.h, wakelock_dir is wakelock_profiler"
+ln: 无法创建符号链接 '/home/user/kernel/msm-4.19/../kernel/msm-4.19/drivers/soc/oplus/owakelock': 没有那个文件或目录
+ln: 无法创建符号链接 '/home/user/kernel/msm-4.19/../kernel/msm-4.19/include/soc/oplus/oplus_wakelock_profiler.h': 没有那个文件或目录
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+drivers/misc/aw8697_haptic/Kconfig:1:warning: ignoring unsupported character ''
+drivers/misc/aw8697_haptic/Kconfig:2:warning: ignoring unsupported character ''
+drivers/misc/aw8697_haptic/Kconfig:3:warning: ignoring unsupported character ''
+drivers/misc/aw8697_haptic/Kconfig:4:warning: ignoring unsupported character ''
+drivers/power/oplus/Kconfig:14:warning: ignoring type redefinition of 'OPLUS_SHORT_C_BATT_CHECK' from 'tristate' to 'bool'
+drivers/power/oplus/Kconfig:24:warning: ignoring type redefinition of 'OPLUS_SHORT_IC_CHECK' from 'tristate' to 'bool'
+drivers/power/oplus/Kconfig:29:warning: ignoring type redefinition of 'OPLUS_SHORT_HW_CHECK' from 'tristate' to 'bool'
+drivers/soc/oplus/system/oplus_saupwk/Kconfig:4:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/oplus_saupwk/Kconfig:5:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/oplus_saupwk/Kconfig:6:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/oplus_saupwk/Kconfig:7:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:3:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:4:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:5:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:6:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:8:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:9:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:10:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:11:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:12:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:14:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:15:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:16:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:17:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:18:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:20:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:21:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:22:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:23:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:24:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:26:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:27:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:28:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:29:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:30:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:32:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:33:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:34:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:35:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:36:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:38:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:39:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:40:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:41:warning: ignoring unsupported character ''
+drivers/soc/oplus/system/cmdline_parser/Kconfig:42:warning: ignoring unsupported character ''
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_FG_IO_OPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SPECIALOPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PERFORMANCE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_STORAGE_TOOL to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFS_DRIVER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFS_SHOW_LATENCY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_UFSPLUS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PADL_STATISTICS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EMMC_SDCARD_OPTIMIZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EMMC_DRIVER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_HEALTHINFO to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TASK_CPUSTATS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_HANS_FREEZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SCHED_ASSIST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IOMONITOR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TP_BSPFWUPDATE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_LOWMEM_DBG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_QCOM_PMICWD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CHG_BASIC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_NWPOWER to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_BDF to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CONNFCSOFT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AGINGTEST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SENSOR_SMEM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SSR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TP_BASIC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EDTASK_IMPROVE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_SLA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_ROUTERBOOST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IPV6_OPTIMIZE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DATA_EVAL to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DHCP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PHOENIX to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DUMPDEVICE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SAUPWK to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MEMORY_ISOLATE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MULTI_KSWAPD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_MTUDETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_XTOWNER_INPUT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SELINUX_CONTROL_LOG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PXLW_IRIS5 to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MULTI_FREEAREA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_VIRTUAL_RESERVE_MEMORY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_GPU_MINIDUMP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_PROCESS_RECLAIM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_ZRAM_OPT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AUDIO_FTM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SPEAKER_MUTE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MM_FEEDBACK to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MI2S_SLAVE to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_KTV to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_QCOM_WATCHDOG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MEMLEAK_DETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_EXFAT_SUPPORT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SDCARDFS_SUPPORT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CAMERA_OIS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_COMPATIBILITY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_STABILITY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_BUG_DEBUG to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_ARCH_INJECT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_ARCH_EXTENDS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_AUDIODETECT to be a macro here
+OplusKernelEnvConfig.mk:136: make COLOROS_EDIT to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_DC to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWERINFO_STANDBY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWERINFO_RPMH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_CAMERA_COMMON to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_ADSP_RECOVERY to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_SMARTPA_PM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IMPEDANCE_MATCH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MODEM_MINIDUMP to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_THEIA to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_POWER_CPUFREQ to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MIDAS to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_OPLUSWFD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_DUALSTA_AP_BLACKLIST to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_WIFI_DCS_SWITCH to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_IM to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_TPD to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_APP_MONITOR to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_RT_INFO to be a macro here
+OplusKernelEnvConfig.mk:136: make OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH to be a macro here
+OplusKernelEnvConfig.mk:181: "ln the wakelock_profiler_h,mk is /home/user/kernel/msm-4.19,dir is /home/user/kernel/msm-4.19/../vendor/oplus/kernel/wakelock_profiler/oplus_wakelock_profiler.h, wakelock_dir is wakelock_profiler"
+ln: 无法创建符号链接 '/home/user/kernel/msm-4.19/../kernel/msm-4.19/drivers/soc/oplus/owakelock': 没有那个文件或目录
+ln: 无法创建符号链接 '/home/user/kernel/msm-4.19/../kernel/msm-4.19/include/soc/oplus/oplus_wakelock_profiler.h': 没有那个文件或目录
+  GEN     ./Makefile
+  Using .. as source for kernel
+  CALL    ../scripts/checksyscalls.sh
+lowmem_dbg mtk_ion use kernel 4.19
+  CC      drivers/scsi/oufs/ufs_latency_hist.o
+  CC      drivers/scsi/oufs/ufs_signal_quality.o
+  CC      drivers/scsi/oufs/ufsfeature.o
+  CC      drivers/scsi/oufs/ufstw.o
+  AR      drivers/scsi/oufs/built-in.a
+  AR      drivers/scsi/built-in.a
+  AR      drivers/built-in.a
+../techpack/display/msm/Makefile:128: "Defined OPLUS_FEATURE_PXLW_IRIS5 and PXLW_IRIS_DUAL in makefile"
+  CC      net/oplus_router_boost/oplus_router_boost.o
+  AR      net/oplus_router_boost/built-in.a
+  AR      net/built-in.a
+  CC      techpack/display/msm/dp/dp_usbpd.o
+  CC      techpack/display/msm/dp/dp_parser.o
+  CHK     include/generated/compile.h
+  CC      techpack/display/msm/dp/dp_power.o
+  CC      techpack/display/msm/dp/dp_catalog.o
+  CC      techpack/display/msm/dp/dp_catalog_v420.o
+  CC      techpack/display/msm/dp/dp_catalog_v200.o
+  CC      techpack/display/msm/dp/dp_aux.o
+  CC      techpack/display/msm/dp/dp_panel.o
+  CC      techpack/display/msm/dp/dp_link.o
+  CC      techpack/display/msm/dp/dp_ctrl.o
+  CC      techpack/display/msm/dp/dp_audio.o
+  CC      techpack/display/msm/dp/dp_debug.o
+  CC      techpack/display/msm/dp/dp_hpd.o
+  CC      techpack/display/msm/dp/dp_gpio_hpd.o
+  CC      techpack/display/msm/dp/dp_lphw_hpd.o
+  CC      techpack/display/msm/dp/dp_display.o
+  CC      techpack/display/msm/dp/dp_drm.o
+  CC      techpack/display/msm/dp/dp_hdcp2p2.o
+  CC      techpack/display/msm/dp/dp_mst_drm.o
+  CC      techpack/display/msm/sde/sde_crtc.o
+  CC      techpack/display/msm/sde/sde_encoder.o
+  CC      techpack/display/msm/sde/sde_encoder_phys_vid.o
+  CC      techpack/display/msm/sde/sde_encoder_phys_cmd.o
+  CC      techpack/display/msm/sde/sde_irq.o
+  CC      techpack/display/msm/sde/sde_core_irq.o
+  CC      techpack/display/msm/sde/sde_core_perf.o
+  CC      techpack/display/msm/sde/sde_rm.o
+  CC      techpack/display/msm/sde/sde_kms_utils.o
+  CC      techpack/display/msm/sde/sde_kms.o
+  CC      techpack/display/msm/sde/sde_plane.o
+  CC      techpack/display/msm/sde/sde_connector.o
+  CC      techpack/display/msm/sde/sde_color_processing.o
+  CC      techpack/display/msm/sde/sde_vbif.o
+  CC      techpack/display/msm/sde_io_util.o
+  CC      techpack/display/msm/sde/sde_hw_reg_dma_v1_color_proc.o
+  CC      techpack/display/msm/sde/sde_hw_color_proc_v4.o
+  CC      techpack/display/msm/sde/sde_hw_ad4.o
+  CC      techpack/display/msm/sde/sde_hw_uidle.o
+  CC      techpack/display/msm/sde_edid_parser.o
+  CC      techpack/display/msm/sde_hdcp_1x.o
+  CC      techpack/display/msm/sde_hdcp_2x.o
+  CC      techpack/display/msm/sde/sde_hw_catalog.o
+  CC      techpack/display/msm/sde/sde_hw_cdm.o
+  CC      techpack/display/msm/sde/sde_hw_dspp.o
+  CC      techpack/display/msm/sde/sde_hw_intf.o
+  CC      techpack/display/msm/sde/sde_hw_lm.o
+  CC      techpack/display/msm/sde/sde_hw_ctl.o
+  CC      techpack/display/msm/sde/sde_hw_util.o
+  CC      techpack/display/msm/sde/sde_hw_sspp.o
+  CC      techpack/display/msm/sde/sde_hw_wb.o
+  CC      techpack/display/msm/sde/sde_hw_pingpong.o
+  CC      techpack/display/msm/sde/sde_hw_top.o
+  CC      techpack/display/msm/sde/sde_hw_interrupts.o
+  CC      techpack/display/msm/sde/sde_hw_vbif.o
+  CC      techpack/display/msm/sde/sde_hw_blk.o
+  CC      techpack/display/msm/sde/sde_formats.o
+  CC      techpack/display/msm/sde_power_handle.o
+  CC      techpack/display/msm/sde/sde_hw_color_processing_v1_7.o
+  CC      techpack/display/msm/sde/sde_reg_dma.o
+  CC      techpack/display/msm/sde/sde_hw_reg_dma_v1.o
+  CC      techpack/display/msm/sde/sde_hw_dsc.o
+  CC      techpack/display/msm/sde/sde_hw_ds.o
+  CC      techpack/display/msm/sde/sde_fence.o
+  CC      techpack/display/msm/sde/sde_hw_qdss.o
+  CC      techpack/display/msm/sde_dbg.o
+  CC      techpack/display/msm/sde_dbg_evtlog.o
+  CC      techpack/display/msm/sde/sde_wb.o
+  CC      techpack/display/msm/sde/sde_encoder_phys_wb.o
+  CC      techpack/display/msm/sde_rsc.o
+  CC      techpack/display/msm/sde_rsc_hw.o
+  CC      techpack/display/msm/sde_rsc_hw_v3.o
+  CC      techpack/display/msm/dsi/dsi_phy.o
+  CC      techpack/display/msm/dsi/dsi_pwr.o
+  CC      techpack/display/msm/dsi/dsi_phy_hw_v2_0.o
+  CC      techpack/display/msm/dsi/dsi_phy_hw_v3_0.o
+  CC      techpack/display/msm/dsi/dsi_phy_hw_v4_0.o
+  CC      techpack/display/msm/dsi/dsi_phy_timing_calc.o
+  CC      techpack/display/msm/dsi/dsi_phy_timing_v2_0.o
+  CC      techpack/display/msm/dsi/dsi_phy_timing_v3_0.o
+  CC      techpack/display/msm/dsi/dsi_phy_timing_v4_0.o
+  CC      techpack/display/msm/dsi/dsi_ctrl_hw_cmn.o
+  CC      techpack/display/msm/dsi/dsi_ctrl_hw_1_4.o
+  CC      techpack/display/msm/dsi/dsi_ctrl_hw_2_0.o
+  CC      techpack/display/msm/dsi/dsi_ctrl_hw_2_2.o
+  CC      techpack/display/msm/dsi/dsi_ctrl.o
+  CC      techpack/display/msm/dsi/dsi_catalog.o
+  CC      techpack/display/msm/dsi/dsi_drm.o
+  CC      techpack/display/msm/dsi/dsi_display.o
+  CC      techpack/display/msm/dsi/dsi_panel.o
+  CC      techpack/display/msm/dsi/dsi_clk_manager.o
+  CC      techpack/display/msm/dsi/dsi_display_test.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_ioctl.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_lightup.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_lightup_ocp.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_lp.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_lut.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_pq.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_mode_switch.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_cmds.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_i3c.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_i2c.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_loop_back.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_gpio.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_frc.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_timing_switch.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_dbg.o
+  CC      techpack/display/msm/dsi/iris/msm_iris5_extended.o
+  CC      techpack/display/msm/dsi/iris/sde_iris5_extended.o
+  CC      techpack/display/msm/dsi/iris/dsi_iris5_extended.o
+  CC      techpack/display/msm/dsi/dsi_parser.o
+  CC      techpack/display/msm/msm_atomic.o
+  CC      techpack/display/msm/msm_fb.o
+  CC      techpack/display/msm/msm_iommu.o
+  CC      techpack/display/msm/msm_drv.o
+  CC      techpack/display/msm/msm_gem.o
+  CC      techpack/display/msm/msm_gem_prime.o
+  CC      techpack/display/msm/msm_gem_vma.o
+  CC      mm/task_mem/tasks_memory.o
+  CC      techpack/display/msm/msm_smmu.o
+  CC      techpack/display/msm/msm_prop.o
+  CC      techpack/display/msm/msm_notifier.o
+  CC      mm/process_mm_reclaim.o
+  CC      techpack/display/msm/../oplus/oplus_dsi_support.o
+  CC      techpack/display/msm/../oplus/oplus_display_private_api.o
+  AR      mm/task_mem/built-in.a
+  CC      techpack/display/msm/../oplus/oplus_dc_diming.o
+  CC      techpack/display/msm/../oplus/oplus_onscreenfingerprint.o
+  CC      techpack/display/msm/../oplus/oplus_aod.o
+  CC      techpack/display/msm/../oplus/oplus_ffl.o
+  AR      mm/built-in.a
+  CC      techpack/display/msm/../oplus/oplus_display_panel.o
+  CC      techpack/display/msm/../oplus/oplus_display_panel_power.o
+  CC      techpack/display/msm/../oplus/oplus_display_panel_seed.o
+  CC      techpack/display/msm/../oplus/oplus_display_panel_common.o
+  CC      techpack/display/msm/../oplus/oplus_display_panel_hbm.o
+  CC      techpack/display/msm/../oplus/oplus_display_panel_cabc.o
+  AR      techpack/display/msm/built-in.a
+  AR      techpack/display/built-in.a
+  AR      techpack/built-in.a
+  GZIP    kernel/config_data.gz
+  CHK     kernel/kheaders_data.tar.xz
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.a
+  AR      built-in.a
+  MODPOST vmlinux.o
+WARNING: EXPORT symbol "gsi_write_channel_scratch" [vmlinux] version generation failed, symbol will not be versioned.
+WARNING: vmlinux.o(.text+0x728674): Section mismatch in reference from the function bootloader_log_probe() to the function .init.text:of_bootloader_log_platform_data()
+The function bootloader_log_probe() references
+the function __init of_bootloader_log_platform_data().
+This is often because bootloader_log_probe lacks a __init 
+annotation or the annotation of of_bootloader_log_platform_data is wrong.
+
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+make[1]: 离开目录“/home/user/kernel/msm-4.19/out”

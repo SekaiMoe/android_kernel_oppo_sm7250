@@ -1,0 +1,104 @@
+1. 共仓库说明（待更新完善）：
+bsp
+├── config                                       //所有Android config相关内容
+│   ├── common
+│   │   └── config.mk
+│   └── platform
+│       ├── mtk
+│       │   └── config.mk
+│       └── qcom
+│           └── config.mk
+├── cpplint.py
+├── driver                                       //指纹驱动
+│   ├── fp_driver.c
+│   ├── fp_driver.h
+│   ├── fp_platform.c
+│   └── Makefile
+├── hal                                          //指纹hal层相关代码
+│   ├── Algo.cpp
+│   ├── Android.mk
+│   ├── Ca                                       //指纹驱动
+│   │   ├── include
+│   │   │   ├── QseeCa.h
+│   │   │   └── TrustonicCa.h
+│   │   ├── QseeCa.cpp
+│   │   └── TrustonicCa.cpp
+│   ├── Config
+│   │   ├── Config.cpp
+│   │   └── include
+│   │       └── Config.h
+│   ├── Dcs                                      //指纹埋点相关功能
+│   │   ├── DcsInfo.cpp
+│   │   └── include
+│   │       ├── Dcs.h
+│   │       ├── DcsInfo.h
+│   │       └── DcsType.h
+│   ├── Device                                   //指纹driver操作接口
+│   │   ├── Device.cpp
+│   │   └── include
+│   │       └── Device.h
+│   ├── Dump                                     //指纹dump图片功能
+│   │   ├── Dump.cpp
+│   │   └── include
+│   │       └── Dump.h
+│   ├── FactoryTest                              //指纹工模测试
+│   │   ├── FactoryTest.cpp
+│   │   └── include
+│   │       └── FactoryTest.h
+│   ├── FingerprintManager.cpp
+│   ├── FingerprintMessage.cpp
+│   ├── HalContext.cpp
+│   ├── Handler
+│   │   ├── Handler.cpp
+│   │   ├── include
+│   │   │   ├── Handler.h
+│   │   │   └── Message.h
+│   │   └── Message.cpp
+│   ├── Health
+│   │   └── HealthMonitor.cpp
+│   ├── Hidl
+│   │   ├── BiometricsFingerprint.cpp
+│   │   ├── include
+│   │   │   └── BiometricsFingerprint.h
+│   │   └── Service.cpp
+│   ├── include
+│   │   ├── ActionType.h
+│   │   ├── Algo.h
+│   │   ├── fingerprint.h
+│   │   ├── FingerprintManager.h
+│   │   ├── FingerprintMessage.h
+│   │   ├── FpCommon.h
+│   │   ├── FpError.h
+│   │   ├── HalContext.h
+│   │   ├── HalLog.h
+│   │   ├── HealthMonitor.h
+│   │   └── Sensor.h
+│   ├── Perf                                     //性能相关，如提频绑核，设置ux线程等
+│   │   ├── include
+│   │   │   └── Perf.h
+│   │   └── Perf.cpp
+│   ├── Sensor.cpp
+│   └── VndCode                                  //VndCode机制相关代码，为厂家提供私有操作
+│       ├── include
+│       │   └── VndCode.h
+│       └── VndCode.cpp
+└── README
+
+
+2. 兼容移植说明（待更新）：
+   a. 配置xml增加仓库：
+      +  <project groups="open" name="oplus/secure/fingerprint" path="source/android/vendor/oplus/secure/biometrics/fingerprints/bsp" revision="r/feature/topic/os11.1.1"/>
+   b. kernel仓库：
+      + 对应项目defconfig中增加CONFIG定义
+      + drivers/input/Kconfig、drivers/input/Makefile中增加fingerprint_drivers/索引
+      + 创建drivers/input/fingerprint_drivers链接文件，采用相对链接到vendor/oplus/secure/biometrics/fingerprints/bsp/drivers目录
+        如高通平台 cd drivers/input/; ln -s ../../../../../vendor/oplus/secure/biometrics/fingerprints/bsp/drivers fingerprint_drivers
+   c. 配置vendor/仓库：
+      + oplus_common.mk中增加 -include vendor/oplus/secure/biometrics/fingerprints/bsp/config/config.mk
+      + 添加init.rc文件
+   d. 指纹selinux相关，现已经移动到公共目录，参考链接如下：
+      +
+
+
+3.完整移植的参考链接如下：
+
