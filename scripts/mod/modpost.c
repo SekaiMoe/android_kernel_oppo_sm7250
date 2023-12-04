@@ -685,7 +685,7 @@ static void handle_modversions(struct module *mod, struct elf_info *info,
 
 		if (is_crc) {
 			const char *e = is_vmlinux(mod->name) ?"":".ko";
-			warn("EXPORT symbol \"%s\" [%s%s] version generation failed, symbol will not be versioned.\n",
+			/*warn("EXPORT symbol \"%s\" [%s%s] version generation failed, symbol will not be versioned.\n",*/
 			     symname + strlen("__crc_"), mod->name, e);
 		}
 		mod->unres = alloc_symbol(symname,
@@ -864,10 +864,10 @@ static void check_section(const char *modname, struct elf_info *elf,
 	if (sechdr->sh_type == SHT_PROGBITS &&
 	    !(sechdr->sh_flags & SHF_ALLOC) &&
 	    !match(sec, section_white_list)) {
-		warn("%s (%s): unexpected non-allocatable section.\n"
+		/*warn("%s (%s): unexpected non-allocatable section.\n"
 		     "Did you forget to use \"ax\"/\"aw\" in a .S file?\n"
 		     "Note that for example <linux/init.h> contains\n"
-		     "section definitions for use in .S files.\n\n",
+		     "section definitions for use in .S files.\n\n",*/
 		     modname, sec);
 	}
 }
