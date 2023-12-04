@@ -864,10 +864,10 @@ static void check_section(const char *modname, struct elf_info *elf,
 	if (sechdr->sh_type == SHT_PROGBITS &&
 	    !(sechdr->sh_flags & SHF_ALLOC) &&
 	    !match(sec, section_white_list)) {
-		/*warn("%s (%s): unexpected non-allocatable section.\n"
+		warn("%s (%s): unexpected non-allocatable section.\n"
 		     "Did you forget to use \"ax\"/\"aw\" in a .S file?\n"
 		     "Note that for example <linux/init.h> contains\n"
-		     "section definitions for use in .S files.\n\n",*/
+		     "section definitions for use in .S files.\n\n",
 		     modname, sec);
 	}
 }
