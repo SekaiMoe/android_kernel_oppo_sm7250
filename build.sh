@@ -14,13 +14,13 @@ export PATH=${CLANG_PATH}:${PATH}
 
 make -j$(nproc) -C $(pwd) O=$(pwd)/out CROSS_COMPILE=$BUILD_CROSS_COMPILE CLANG_TRIPLE=$CLANG_TRIPLE CROSS_COMPILE_ARM32=$CROSS_COMPILE_ARM32 \
     CC=clang \
-    vendor/lito_defconfig
+    vendor/lito-perf_defconfig
 
 A=$(date +%s)
 export USE_CCACHE=1
 make -j$(nproc) -C $(pwd) O=$(pwd)/out CROSS_COMPILE=$BUILD_CROSS_COMPILE CLANG_TRIPLE=$CLANG_TRIPLE CROSS_COMPILE_ARM32=$CROSS_COMPILE_ARM32 \
     CC=clang \
-    -Werror CONFIG_SECTION_MISMATCH_WARN_ONLY=y \
+    -Werror \
     2>&1 | tee build.txt
 B=$(date +%s)
 C=$(expr $B - $A)
