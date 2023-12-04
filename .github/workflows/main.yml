@@ -40,14 +40,5 @@ jobs:
 
           git clone https://github.com/dpkg123/clang --depth=2
 
-      
-      - name: Setup ccache
-
-        uses: hendrikmuhs/ccache-action@main
-
-        with: 
-
-         max-size: 4G
-
       - name: Build
         run: cd msm-4.19 && bash build.sh
