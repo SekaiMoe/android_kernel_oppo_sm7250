@@ -20,7 +20,7 @@ A=$(date +%s)
 export USE_CCACHE=1
 make -j$(nproc) -C $(pwd) O=$(pwd)/out CROSS_COMPILE=$BUILD_CROSS_COMPILE CLANG_TRIPLE=$CLANG_TRIPLE CROSS_COMPILE_ARM32=$CROSS_COMPILE_ARM32 \
     CC=clang LD=ld.lld \
-    -Werror CONFIG_DEBUG_SECTION_MISMATCH=y \
+    -Werror \
     2>&1 | tee build.txt
 B=$(date +%s)
 C=$(expr $B - $A)
