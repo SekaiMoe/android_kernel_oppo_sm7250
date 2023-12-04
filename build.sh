@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 set -x
 test -d out || mkdir out -p -v
