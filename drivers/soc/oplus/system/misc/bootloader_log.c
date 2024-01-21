@@ -145,51 +145,6 @@ static int persistent_ram_buffer_map(phys_addr_t start, size_t size,
 	return 0;
 }
 
-
-static int bootloader_log_probe(struct platform_device *pdev)
-{
-	struct bootloader_log_platform_data *pdata = pdev->dev.platform_data;
-	struct bootloader_log_platform_data of_pdata;
-
-	phys_addr_t paddr;
-	int err = -EINVAL;
-
-	pr_err("bootloader_log_probe\n");
-
-	if (pdev->dev.of_node) {
-		if (of_bootloader_log_platform_data(pdev->dev.of_node,
-			&of_pdata)) {
-			pr_err("Invalid bootloader log device tree data\n");
-			goto fail_out;
-		}
-		pdata = &of_pdata;
-	}
-
-	if (!pdata->mem_size) {
-		pr_err("memory size and record size must be non-zero\n");
-		goto fail_out;
-	}
-
-	paddr = pdata->mem_address;
-
-
-	err = persistent_ram_buffer_map(paddr, pdata->mem_size,
-		&bootloader_log_ram_zone);
-	if (err)
-		goto fail_out;
-
-	proc_bootloader_log_init();
-
-
-	pr_info("bootloader_log!\n");
-
-	return 0;
-
-fail_out:
-	pr_err("bootloader_log, fail_out!\n");
-	return err;
-}
-
 static int __exit bootloader_log_remove(struct platform_device *pdev)
 {
 	return -EBUSY;
