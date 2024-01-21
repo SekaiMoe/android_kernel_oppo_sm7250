@@ -14,12 +14,6 @@ config PARAM_READ_WRITE
 	if you want to read/write the param partition in kernel,
 	then you must say Y here.
 
-config BOOTLOADER_LOG
-	tristate "show bootloader log"
-	default n
-	help
-	  show bootloader log in kernel
-
 config WB_KERNEL_LOG
 	tristate "reserve kernel log to partition driver"
 	default n
