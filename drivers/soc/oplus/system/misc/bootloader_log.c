@@ -146,7 +146,7 @@ static int persistent_ram_buffer_map(phys_addr_t start, size_t size,
 }
 
 
-static int bootloader_log_probe(struct platform_device *pdev)
+static int __init bootloader_log_probe(struct platform_device *pdev)
 {
 	struct bootloader_log_platform_data *pdata = pdev->dev.platform_data;
 	struct bootloader_log_platform_data of_pdata;
