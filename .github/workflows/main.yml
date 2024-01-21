@@ -44,4 +44,4 @@ jobs:
       - name: Build
         run: cd msm-4.19 && bash build.sh
       - name: cat config
-        run: cd msm-4.19 && cat .config
+        run: cd msm-4.19 && cat out/.config
