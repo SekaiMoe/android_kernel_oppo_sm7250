@@ -4,6 +4,7 @@ on:
 
   workflow_dispatch:
   workflow_call:
+  push:
 
 jobs:
 
@@ -42,3 +43,5 @@ jobs:
 
       - name: Build
         run: cd msm-4.19 && bash build.sh
+      - name: cat config
+        run: cd msm-4.19 && cat .config
