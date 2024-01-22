@@ -202,7 +202,6 @@ static const struct of_device_id bootloader_log_of_match[] = {
 MODULE_DEVICE_TABLE(of, bootloader_log_of_match);
 
 static struct platform_driver bootloader_log_driver = {
-	.probe		= bootloader_log_probe,
 	.remove		= __exit_p(bootloader_log_remove),
 	.driver		= {
 		.name	= "bootloader_log",
